@@ -1,0 +1,22 @@
+{
+  "name": "less",
+  "version": "0.1.0",
+  "description": "A communication protocol between you and Claude. Answer-first, minimal, elegant replies with pick-list choices — governs Claude's user-facing prose only, never the depth of its work or other skills. Signal without the info-dump.",
+  "author": {
+    "name": "nagisanzenin",
+    "url": "https://github.com/nagisanzenin"
+  },
+  "homepage": "https://github.com/nagisanzenin/less",
+  "repository": "https://github.com/nagisanzenin/less",
+  "license": "MIT",
+  "keywords": [
+    "communication",
+    "minimalism",
+    "ux",
+    "concise",
+    "output-style",
+    "neurodivergent",
+    "claude-code",
+    "less"
+  ]
+}

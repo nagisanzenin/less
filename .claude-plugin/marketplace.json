@@ -1,0 +1,20 @@
+{
+  "name": "less",
+  "owner": {
+    "name": "nagisanzenin",
+    "url": "https://github.com/nagisanzenin"
+  },
+  "metadata": {
+    "description": "less — a minimal communication protocol for Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "less",
+      "source": "./",
+      "description": "Answer-first, minimal, pick-list replies. Governs Claude's user-facing prose only — not the depth of its work.",
+      "version": "0.1.0",
+      "keywords": ["communication", "minimalism", "ux", "concise"]
+    }
+  ]
+}

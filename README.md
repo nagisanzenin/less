@@ -17,8 +17,9 @@ mental-space saver.
 - **Keeps the load-bearing facts.** Numbers, paths, risks, breaking changes,
   anything irreversible. Minimal ≠ missing.
 - **Breathes.** One idea per line. Whitespace over walls.
-- **Offers pick-lists.** Decisions come as `a` / `b` / `c`, recommended first — reply
-  with a letter.
+- **Selectable choices.** Decisions render as the native interactive picker
+  (arrow-keys + enter), recommended first — you select, you don't type. Clean UI is
+  part of the calm, not a separate thing.
 
 ## Modes
 

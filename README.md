@@ -56,6 +56,15 @@ exactly its normal self.
 claude plugin uninstall less@less
 ```
 
+## More from the same workshop
+
+Five Claude Code plugins from the same workshop. Most share one habit: *let a deterministic core decide, and never let the producer of work grade it.*
+
+- **[effortmining](https://github.com/nagisanzenin/effortmining)** — benchmark-calibrated per-subagent reasoning effort: dispatch the cheapest tier a blind grader still accepts. ~64.7% fewer output tokens at equal quality, pre-registered.
+- **[engram](https://github.com/nagisanzenin/engram)** — evidence-based learning engine: first-principles curricula, generation-first tutoring, blind-graded free recall, FSRS-scheduled memory. Learn anything; keep it.
+- **[idiolect](https://github.com/nagisanzenin/idiolect)** — human-voice writing engine: 60+ measured voices plus a deterministic AI-tell scanner and a blind auditor, so text reads like a person, not a model.
+- **[production-grade](https://github.com/nagisanzenin/claude-code-production-grade-plugin)** — turns "build me X" into a gated multi-agent pipeline (architecture → tests → security → CI/CD) with a receipt for every phase.
+
 ## License
 
 MIT

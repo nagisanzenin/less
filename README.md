@@ -22,19 +22,16 @@ mental-space saver.
 
 ## Modes
 
-| mode  | behavior                                            |
-|-------|-----------------------------------------------------|
-| `on`  | default — minimal, answer-first, pick-lists         |
-| `zen` | near-silent — results and pick-lists only           |
-| `off` | normal Claude verbosity                             |
+| command      | behavior                                         |
+|--------------|--------------------------------------------------|
+| `/less:on`   | default — minimal, answer-first, pick-lists      |
+| `/less:zen`  | near-silent — results and pick-lists only        |
+| `/less:off`  | normal Claude verbosity                          |
+| `/less:less` | show the current mode + the switches             |
 
-Switch anytime:
-
-```
-/less zen
-/less off
-/less status
-```
+Use the **namespaced** form (`/less:zen`, not `/less zen`). A bare `/less zen`
+collides with Claude Code's skill-stacking parser (2.1.199+) and errors with
+`args from unknown skill: zen`. Modes take effect from the next turn.
 
 ## Install
 
